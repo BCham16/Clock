@@ -1,0 +1,25 @@
+
+.Clock{
+  display: grid;
+  grid-template-columns: 50px 8px 50px 8px 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+  border-style: solid;
+  width: fit-content;
+  padding: 8px;
+}
+
+.Hours{
+  background-color: rgb(241, 217, 37);
+}
+
+.Minutes{
+  background-color: rgb(93, 102, 232);
+}
+
+.Seconds{
+  background-color: rgb(195, 56, 72);
+}
