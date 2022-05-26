@@ -1,8 +1,10 @@
+* {
+  font-family: Verdana;
+}
 
-.Clock{
+#Clock{
   display: grid;
   grid-template-columns: 50px 8px 50px 8px 50px;
-  font-family: Verdana;
   font-size: 20px;
   margin-top: 50px;
   margin-left: 50px;
@@ -10,16 +12,23 @@
   border-style: solid;
   width: fit-content;
   padding: 8px;
+  margin-top: 25px;
 }
 
-.Hours{
+#Hours{
   background-color: rgb(241, 217, 37);
 }
 
-.Minutes{
+#Minutes{
   background-color: rgb(93, 102, 232);
 }
 
-.Seconds{
+#Seconds{
   background-color: rgb(195, 56, 72);
+}
+
+#Date{
+  font-size: 20px;
+  margin-left: 25px;
+  margin-bottom: 0px;
 }
