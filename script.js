@@ -31,8 +31,12 @@ temp = today.getDate();
 if (temp == 1){descriptor = 'st'}
 else if (temp == 2){descriptor = 'nd'}
 else if (temp == 3){descriptor = 'rd'}
+else if (temp > 20 && temp % 10 == 1){descriptor = 'st'}
+else if (temp > 20 && temp % 10 == 2){descriptor = 'nd'}
+else if (temp > 20 && temp % 10 == 3){descriptor = 'rd'}
 else {descriptor = 'th'}
 dayOfMonth = String(temp) + String(descriptor);
+console.log(dayOfMonth)
 
 //Assigning a variable to year for consistency
 yearToPrint = today.getFullYear();
